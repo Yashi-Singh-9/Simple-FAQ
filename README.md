@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.com">
+    <a href="https://yashi-singh-9.github.io/Simple-FAQ/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Yashi-Singh-9/Simple-FAQ">
+    <a href="https://devchallenges.io/solution/50694">
       Solution
     </a>
     <span> | </span>
@@ -37,9 +37,14 @@
 
 ## Overview
 
+**Desktop Desing**
 ![Desktop Design](design/desktop-design.png)
-![Tablet Design](design/tablet-design.png)
-![Desktop Design](design/mobile-design.png)
+
+**Tablet Design**  
+<img src="design/tablet-design.png" height="750px">
+
+**Mobile Design**  
+<img src="design/mobile-design.png" height="750px">
 
 This is a responsive FAQ (Frequently Asked Questions) page built as part of the **Simple FAQ Page Challenge** from [devChallenges.io](https://devchallenges.io/). The page answers customer service questions like tracking orders and return policies. It demonstrates semantic HTML structure and clean, maintainable CSS.
 
