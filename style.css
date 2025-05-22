@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --blue: #4E80EE;
+    --dark-blue: #030616;
+    --gray: #D2D5DA;
+    --mist: #F8FAFC;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: --dark-blue;
+}
+
+h1, h3 {
+    font-weight: 600;
+}
+
+a,
+a:visited{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+header {
+    padding: 4rem;
+    background-color: var(--white);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.6rem;
+}
+
+main {
+    padding: 4rem;
+    background-color: var(--mist);
+}
+
+main .info {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+main .info .order {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+main .info ol,
+main .info ul {
+    padding-left: 1rem; 
+}
+
+main .info ol li,
+main .info ul li{
+    margin-bottom: 1.5rem;
+}
+ 
+main .info .help-center {
+    display: block;
+    margin-bottom: 3rem;
+}
+
+main .info hr {
+    border: 1.5px solid var(--gray);
+    margin-bottom: 3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
